@@ -1,0 +1,11 @@
+export { default as NoteIcon } from './NoteIcon.jsx';
+export { default as Reminder } from './Reminder.jsx';
+export { default as Settings } from './Settings.jsx';
+export { default as Tag } from './Tag.jsx';
+export { default as Trash } from './Trash.jsx';
+export { default as IconsContainer } from './IconsContainer.jsx';
+export { default as Folder } from './Folder.jsx';
+export { default as Search } from './Search.jsx';
+export { default as Archive } from './Archive.jsx';
+export { default as Add } from './Add.jsx';
+export { default as Sun } from './Sun.jsx';

@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+/* .card {
+  @apply rounded-xl bg-black p-4 shadow-sm;
+} */
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1 {
+    font-family: 'Manrope', sans-serif;
+
+  }
+}

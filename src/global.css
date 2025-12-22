@@ -1,0 +1,17 @@
+.sidebar::before {
+  content: attr(data-sidebar-icon);
+  position: absolute;
+  left: 53px;
+  font-size: small;
+  padding: 2px 5px;
+  border-radius: 5px;
+  background-color: #252525;
+  color: #fff;
+  opacity: 0;
+  transition: all cubic-bezier(0.71, 0.03, 0.11, 0.97) 200ms;
+  pointer-events: none;
+}
+
+.sidebar:hover::before {
+  opacity: 1;
+}
