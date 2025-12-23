@@ -1,12 +1,12 @@
 // import { useState } from 'react';
-import { Add, Sun } from '../../icons';
+import { Add, Logo } from '../../icons';
 
-function Header() {
+function Header({ username = 'Lateef' }) {
   return (
     <header className="flex justify-between mt-10">
-      <div className="flex items-center gap-2">
-        <Sun />
-        <h1 className="text-3xl font-semibold">Good Morning, Lateef</h1>
+      <div className="flex items-center gap-0.5">
+        <Logo />
+        <h1 className="text-3xl font-semibold">Good Morning, {username}</h1>
       </div>
       <div className="">
         <button className="py-1 px-3 rounded-md bg-[#DEDEF7] flex justify-center items-center cursor-pointer transition-transform ease-in active:translate-y-0.5">

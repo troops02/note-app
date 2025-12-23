@@ -1,9 +1,9 @@
 function TaskItem() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <label>
+      <input type="checkbok" />
+    </label>
+  );
 }
 
-export default TaskItem
+export default TaskItem;

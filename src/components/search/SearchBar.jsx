@@ -1,6 +1,7 @@
 import SearchModal from './SearchModal';
 import { Search } from '../icons';
 import { useState } from 'react';
+import SearchInput from './SearchInput';
 
 function SearchBar() {
   //   const [input, setInput] = useState('');
@@ -15,15 +16,7 @@ function SearchBar() {
         <div className="h-full flex items-center">
           <Search />
         </div>
-        <div className="flex-1 h-full">
-          <input
-            onClick={handleClose}
-            className="h-full w-full border-none outline-none"
-            //   value={input}
-            type="text"
-            placeholder="what are you looking for"
-          />
-        </div>
+        <SearchInput onClose={handleClose} />
       </div>
       {open && <SearchModal state={handleClose} />}{' '}
     </>

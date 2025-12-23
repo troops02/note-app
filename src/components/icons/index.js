@@ -8,4 +8,4 @@ export { default as Folder } from './Folder.jsx';
 export { default as Search } from './Search.jsx';
 export { default as Archive } from './Archive.jsx';
 export { default as Add } from './Add.jsx';
-export { default as Sun } from './Sun.jsx';
+export { default as Logo } from './Logo.jsx';
